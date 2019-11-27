@@ -113,7 +113,7 @@ def ai(n):
 		b[n].setText(v[n])
 		b[bc[-1]].setText(v[bc[-1]])
 		p += 1
-		lbl[0].setText('Points : 6/{}'.format(p))
+		lbl[0].setText('Pontos : 6/{}'.format(p))
 		c = random.choice(f)
 		b[n].setStyleSheet("background-color: rgb(6, 94, 84); color: rgb(255,255,255);".format(c, c/2))
 		b[bc[-1]].setStyleSheet("background-color: rgb(26, 94, 84); color: rgb(255,255,255);".format(c, c/2))
